@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Restaurante</title>
+
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="../css/style_raw.css" />
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+  </head>
+
+  <body>
+    <header class="header drop-shadow-lg">
+      <div class="container">
+        <div class="nav-pc">
+          <a href="home.html" class="grid-4 logo"
+            ><img src="../img/logo.png"
+          /></a>
+          <nav class="grid-12 navbar">
+            <ul>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="contato.html">Contato</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="nav-mb">
+          <nav>
+            <div class="navbar-h">
+              <div class="container nav-container">
+                <div>
+                  <a href="home.html" class="grid-4 logo"
+                    ><img src="../img/logo.png"
+                  /></a>
+                </div>
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                  <span class="line line1"></span>
+                  <span class="line line2"></span>
+                  <span class="line line3"></span>
+                </div>
+                <div class="menu-items">
+                  <a href="menu.html">Menu</a>
+                  <a href="contato.html">Contato</a>
+                  <a href="sobre.html">Sobre</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!--INTRODUÇÃO-->
+    <div
+      style="
+        background: url(../img/prato-introducao.jpg) center no-repeat;
+        width: 100%;
+        background-size: cover;
+        height: 460px;
+      "
+      data-anime="300"
+      class="fadeInDown"
+    >
+      <div
+        class="container max-w-5xl mx-auto px-4 h-full flex items-center justify-center"
+      >
+        <div>
+          <h1
+            data-anime="600"
+            class="md:text-8xl text-6xl text-white font-extrabold fadeInDown"
+          >
+            Le Restaurant
+          </h1>
+
+          <p
+            data-anime="900"
+            class="md:text-3xl text-2xl text-white fadeInDown"
+          >
+            O melhor centro gastronômico que você pode experenciar
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ INTRODUÇÃO -->
+
+    <!-- Pratos da Casa -->
+    <div
+      data-anime="1200"
+      class="container flex items-center justify-center fadeInDown pratos-da-casa"
+    >
+      <div>
+        <h2 class="mt-16 text-center font-extrabold text-4xl subtitulo">
+          Pratos do Dia
+        </h2>
+
+        <ul class="my-4" data-slide="pratos-do-dia">
+          <li>
+            <div
+              class="pratos-casa drop-shadow-lg rounded-md md:w-96 grid grid-gap-4 md:grid-cols-2 grid-rows-2"
+            >
+              <div class="rounded-md truncate flex items-center row-span-2">
+                <img
+                  src="../img/prato01.jpg"
+                  class="lg:w-96 sm:w-fit sm:h-fit"
+                />
+              </div>
+
+              <div
+                class="flex items-center md:text-right text-center md:px-0 px-40 py-10 md:py-24 grid grid-gap-2 md:h-max md:mr-8 ml-4"
+              >
+                <div class="text-xl font-extrabold md:mb-10">
+                  Salmão grelhado
+                </div>
+                <div class="text-m font-medium mt-2">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum suscipit cumque magni nemo aut ea! Nobis,
+                    pariatur accusamus? Officiis similique totam asperiores,
+                    eveniet corporis inventore ad architecto! Voluptas, minus!
+                    Exercitationem.
+                  </p>
+                  <p class="mt-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum suscipit cumque magni nemo aut ea! Nobis,
+                    pariatur accusamus? Officiis similique totam asperiores,
+                    eveniet corporis inventore ad architecto! Voluptas, minus!
+                    Exercitationem.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div
+              class="pratos-casa drop-shadow-lg rounded-md md:w-96 grid grid-gap-4 md:grid-cols-2 grid-rows-2"
+            >
+              <div class="rounded-md truncate flex items-center row-span-2">
+                <img
+                  src="../img/prato02.jpg"
+                  class="lg:w-96 sm:w-fit sm:h-fit"
+                />
+              </div>
+
+              <div
+                class="flex items-center md:text-right text-center md:px-0 px-40 py-10 md:py-24 grid grid-gap-2 md:h-max md:mr-8 ml-4"
+              >
+                <div class="text-xl font-extrabold md:mb-10">
+                  Torta de Frutas Vermelhas
+                </div>
+                <div class="text-m font-medium mt-2">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum suscipit cumque magni nemo aut ea! Nobis,
+                    pariatur accusamus? Officiis similique totam asperiores,
+                    eveniet corporis inventore ad architecto! Voluptas, minus!
+                    Exercitationem.
+                  </p>
+                  <p class="mt-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum suscipit cumque magni nemo aut ea! Nobis,
+                    pariatur accusamus? Officiis similique totam asperiores,
+                    eveniet corporis inventore ad architecto! Voluptas, minus!
+                    Exercitationem.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div
+              class="pratos-casa drop-shadow-lg rounded-md md:w-96 grid grid-gap-4 md:grid-cols-2 grid-rows-2"
+            >
+              <div class="rounded-md truncate flex items-center row-span-2">
+                <img
+                  src="../img/prato03.jpg"
+                  class="lg:w-96 sm:w-fit sm:h-fit"
+                />
+              </div>
+
+              <div
+                class="flex items-center md:text-right text-center md:px-0 px-40 py-10 md:py-24 grid grid-gap-2 md:h-max md:mr-8 ml-4"
+              >
+                <div class="text-xl font-extrabold md:mb-10">
+                  Sanduíche Natural
+                </div>
+                <div class="text-m font-medium mt-2">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum suscipit cumque magni nemo aut ea! Nobis,
+                    pariatur accusamus? Officiis similique totam asperiores,
+                    eveniet corporis inventore ad architecto! Voluptas, minus!
+                    Exercitationem.
+                  </p>
+                  <p class="mt-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum suscipit cumque magni nemo aut ea! Nobis,
+                    pariatur accusamus? Officiis similique totam asperiores,
+                    eveniet corporis inventore ad architecto! Voluptas, minus!
+                    Exercitationem.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div
+              class="pratos-casa drop-shadow-lg rounded-md md:w-96 grid grid-gap-4 md:grid-cols-2 grid-rows-2"
+            >
+              <div class="rounded-md truncate flex items-center row-span-2">
+                <img
+                  src="../img/prato04.jpg"
+                  class="lg:w-96 sm:w-fit sm:h-fit"
+                />
+              </div>
+
+              <div
+                class="flex items-center md:text-right text-center md:px-0 px-40 py-10 md:py-24 grid grid-gap-2 md:h-max md:mr-8 ml-4"
+              >
+                <div class="text-xl font-extrabold md:mb-10">
+                  Caldo de Abóbora
+                </div>
+                <div class="text-m font-medium mt-2">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum suscipit cumque magni nemo aut ea! Nobis,
+                    pariatur accusamus? Officiis similique totam asperiores,
+                    eveniet corporis inventore ad architecto! Voluptas, minus!
+                    Exercitationem.
+                  </p>
+                  <p class="mt-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum suscipit cumque magni nemo aut ea! Nobis,
+                    pariatur accusamus? Officiis similique totam asperiores,
+                    eveniet corporis inventore ad architecto! Voluptas, minus!
+                    Exercitationem.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--/ Pratos da Casa -->
+
+    <!-- Ofertas diárias-->
+    <div class="container">
+      <h2 class="mb-6 mt-16 text-center font-extrabold text-4xl subtitulo">
+        Ofertas Especiais
+      </h2>
+
+      <div
+        class="grid md:grid-cols-4 md:grid-rows-1 grid-cols-2 grid-rows-2 gap-6"
+      >
+        <div
+          class="grid grid-rows-6 grid-gap-2 pratos-oferta drop-shadow-lg rounded-md"
+        >
+          <div class="row-span-3 rounded-t-md truncate">
+            <img src="../img/oferta01.jpg" />
+          </div>
+          <di class="text-right mt-4 mr-4">
+            <p class="text-lg font-bold">Fettuccine alfredo</p>
+          </di>
+          <di class="text-right mt-3 mr-4">
+            <p class="text-lg font-bold line-through">R$49.99</p>
+          </di>
+          <di class="text-right mr-4">
+            <p class="text-2xl font-extrabold">R$39.99</p>
+          </di>
+        </div>
+
+        <div
+          class="grid grid-rows-6 grid-gap-2 pratos-oferta drop-shadow-lg rounded-md"
+        >
+          <div class="row-span-3 rounded-t-md truncate w-full">
+            <img src="../img/oferta02.jpg" />
+          </div>
+          <di class="text-right mt-4 mr-4">
+            <p class="text-lg font-bold">Guacamole</p>
+          </di>
+          <di class="text-right mt-3 mr-4">
+            <p class="text-lg font-bold line-through">R$39.99</p>
+          </di>
+          <di class="text-right mr-4">
+            <p class="text-2xl font-extrabold">R$34.99</p>
+          </di>
+        </div>
+
+        <div
+          class="grid grid-rows-6 grid-gap-2 pratos-oferta drop-shadow-lg rounded-md"
+        >
+          <div class="row-span-3 rounded-t-md truncate">
+            <img src="../img/oferta03.jpg" />
+          </div>
+          <di class="text-right mt-4 mr-4">
+            <p class="text-lg font-bold">Mix de frutos do mar</p>
+          </di>
+          <di class="text-right mt-3 mr-4">
+            <p class="text-lg font-bold line-through">R$64.99</p>
+          </di>
+          <di class="text-right mr-4">
+            <p class="text-2xl font-extrabold">R$59.99</p>
+          </di>
+        </div>
+
+        <div
+          class="grid grid-rows-6 grid-gap-2 pratos-oferta drop-shadow-lg rounded-md"
+        >
+          <div class="row-span-3 rounded-t-md truncate">
+            <img src="../img/oferta04.jpg" />
+          </div>
+          <di class="text-right mt-4 mr-4">
+            <p class="text-lg font-bold">Costela com fritas</p>
+          </di>
+          <di class="text-right mt-3 mr-4">
+            <p class="text-lg font-bold line-through">R$79.99</p>
+          </di>
+          <di class="text-right mr-4">
+            <p class="text-2xl font-extrabold">R$69.99</p>
+          </di>
+        </div>
+      </div>
+
+      <div class="show-more flex justify-center items-center">
+        <a href="menu.html">
+          <button
+            class="btn flex justify-center items-center text-xl font-extrabold px-4 py-8"
+          >
+            Ver mais
+          </button>
+        </a>
+      </div>
+    </div>
+    <!--/ Ofertas diárias-->
+
+    <!-- Chamada da apresentação -->
+    <div class="container flex items-center justify-center fadeInDown">
+      <div
+        class="mt-16 call-apres drop-shadow-lg rounded-md grid grid-gap-4 grid-cols-2"
+      >
+        <div class="flex items-center text-right mx-10">
+          <div class="text-2xl text-white font-extrabold">
+            Tudo que é bem feito, não é feito por acaso ...
+          </div>
+        </div>
+
+        <div class="rounded-r-md truncate">
+          <img src="../img/restaurante.jpg" class="md:w-full" />
+        </div>
+      </div>
+    </div>
+    <!--/ Chamada da apresentação -->
+
+    <!-- Pontos da Empresa -->
+    <div class="container pontos">
+      <div class="grid-16 titulo">
+        <h2 class="text-center font-extrabold text-4xl subtitulo">
+          Pontos da Empresa
+        </h2>
+      </div>
+      <div class="grid-1-3 pts">
+        <h2 class="pb-3"><b>Tradição</b></h2>
+        <p>
+          Somos um restaurante que segue as tradições a 3 gerações, e tratamos
+          todos os clientes como se fossem nossa familia.
+        </p>
+      </div>
+      <div class="grid-1-3 pts">
+        <h2 class="pb-3"><b>Cuidado</b></h2>
+        <p>
+          Temos o maior cuidado no preparo e no atendimento, buscando levar o
+          melhor de nós para vocês.
+        </p>
+      </div>
+      <div class="grid-1-3 pts">
+        <h2 class="pb-3"><b>Valores</b></h2>
+        <p>
+          Nós valorizamos as pequenas coisas, por isso buscamos garantir um
+          ambiente familiar para todos.
+        </p>
+      </div>
+    </div>
+    <!-- pontos empresa -->
+
+    <!-- comentarios clientes -->
+    <div class="container coment rounded-md italic mb-32 mt-16">
+      <div>
+        <ul data-slide="comentarios">
+          <li>
+            <div class="grid-10">
+              <blockquote>
+                <p class="titulo-cite">
+                  "Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Quae odit optio ipsa beatae, perspiciatis eius obcaecati atque
+                  nostrum facere nisi quisquam minima aliquam error labore sint
+                  consequuntur qui deleniti est."
+                </p>
+                <cite>Camila </cite>
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="grid-10">
+              <blockquote>
+                <p>
+                  "Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Quae odit optio ipsa beatae, perspiciatis eius obcaecati atque
+                  nostrum facere nisi quisquam minima aliquam error labore sint
+                  consequuntur qui deleniti est."
+                </p>
+                <cite>Maria</cite>
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="grid-10">
+              <blockquote>
+                <p>
+                  "Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Quae odit optio ipsa beatae, perspiciatis eius obcaecati atque
+                  nostrum facere nisi quisquam minima aliquam error labore sint
+                  consequuntur qui deleniti est."
+                </p>
+                <cite>Braga</cite>
+              </blockquote>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-contato grid-12">
+          <h2>Nossa história:</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            nostrum molestias vero nulla aspernatur, provident ea unde repellat.
+          </p>
+        </div>
+        <div class="footer_redes grid-4">
+          <h2 class="t-social">Redes Sociais:</h2>
+          <ul>
+            <li class="social">
+              <a href="#"
+                ><img src="../img/redes-sociais/facebook 3.png" alt="Facebook"
+              /></a>
+            </li>
+            <li class="social">
+              <a href="#"
+                ><img src="../img/redes-sociais/instagram 1.png" alt=""
+              /></a>
+            </li>
+            <li class="social">
+              <a href="#"
+                ><img src="../img/redes-sociais/Vector.png" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/simple-slide.js"></script>
+    <script src="../js/hidden-content.js"></script>
+    <script src="../js/simple-anime.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Restaurante</title>
+
+  <link rel="stylesheet" href="../dist/output.css" />
+  <link rel="stylesheet" href="../css/style_raw.css" />
+  <link rel="shortcut icon" href="../img/favicon.ico" />
+
+
+  <script>
+    document.documentElement.classList.add("js"); 
+  </script>
+</head>
+
+
+<body>
+  <header class="header drop-shadow-lg">
+    <div class="container">
+      <div class="nav-pc">
+        <a href="home.html" class="grid-4 logo"><img src="../img/logo.png" /></a>
+        <nav class="grid-12 navbar">
+          <ul>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="nav-mb">
+        <nav>
+          <div class="navbar-h">
+            <div class="container nav-container">
+              <div>
+                <a href="home.html" class="grid-4 logo"><img src="../img/logo.png" /></a>
+              </div>
+              <input class="checkbox" type="checkbox" name="" id="" />
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>
+              <div class="menu-items ">
+                <a href="menu.html">Menu</a>
+                <a href="contato.html">Contato</a>
+                <a href="sobre.html">Sobre</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+
+    </div>
+  </header>
+
+  <div class="img-contato">
+    <div class="container text-reveal">
+      <p class="">Entre em Contato</p>
+    </div>
+  </div>
+
+
+  <div class="container contato">
+    <div class="grid-8 form-contato drop-shadow-lg">
+      <form action="https://formspree.io/f/mzboqqle" method="POST">
+        <label>
+          Nome:
+          <input type="name" name="name" class="rounded-md" required>
+        </label>
+        <label>
+          Deixe sua mensagem:
+          <textarea name="message" class="rounded-md" required></textarea>
+        </label>
+        <!-- <label for="avaliacao">Deixe sua avaliação.</label> -->
+        <select name="avaliacao" id="avaliacao">
+          <option value="" selected="" disabled="" class="rounded-md">Deixe sua avaliação.</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+
+
+        <button type="submit" class="rounded-md ">Enviar</button>
+
+
+      </form>
+    </div>
+
+    <div class="grid-8 info-contato">
+      <p><b>E-mail:</b> lerestaurant@food.com</p>
+      <br>
+      <p><b>Telefone:</b> 4002-8922</p>
+      <br>
+      <p><b>Endereço:</b> Av. B P S, 1303 - Pinheirinho, Itajubá - MG</p>
+      <br>
+      <!--       
+      <img src="" alt="" class="end-contato"> -->
+      <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2963.2310471112014!2d-45.45398128386379!3d-22.41282758581596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cb7cadb1247d9b%3A0xf74fb46a1edf2072!2sUniversidade%20Federal%20de%20Itajub%C3%A1%2C%20Campus%20Prof.%20Jos%C3%A9%20Rodrigues%20Seabra!5e1!3m2!1spt-BR!2sbr!4v1657077771262!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map-contato"></iframe>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="contato-bt container">
+    <p>Entre em contato com a gente, e faça sua reserva!</p>
+  </div>
+
+
+  <div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-contato grid-12">
+          <h2>Nossa história:</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            nostrum molestias vero nulla aspernatur, provident ea unde repellat.
+          </p>
+        </div>
+        <div class="footer_redes grid-4">
+          <h2 class="t-social">Redes Sociais:</h2>
+          <ul>
+            <li class="social">
+              <a href="#"><img src="../img/redes-sociais/facebook 3.png" alt="Facebook" /></a>
+            </li>
+            <li class="social">
+              <a href="#"><img src="../img/redes-sociais/instagram 1.png" alt="" /></a>
+            </li>
+            <li class="social">
+              <a href="#"><img src="../img/redes-sociais/Vector.png" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="../js/simple-slide.js"></script>
+    <script src="../js/simple-anime.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
